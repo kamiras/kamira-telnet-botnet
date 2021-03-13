@@ -2,11 +2,11 @@
 
 ## Features
 
-** Bot Collecting **
+**Bot Collecting**
 
 - [x] Telnet Brute Force Attack
 
-** Four Attack Methods **
+**Four Attack Methods**
 
 - [x] HTTP/HTTPS Attack
 - [x] PING Attack
