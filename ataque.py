@@ -66,7 +66,7 @@ def Ataque(opcion, direccion, puerto, tipo):
 
                     if hping_equipos[i]=="NS":
 
-                        print(f'IP: {ip_equipos[i]} USER: {user_equipos[i]} PASS: {password_equipos[i]} --- Instalando Hping3')
+                        print(f'IP: {ip_equipos[i]} USER: {user_equipos[i]} PASS: {password_equipos[i]} --- Installing Hping3')
 
                         tn.write(bytes("sudo -S <<< "+password_equipos[i]+" apt install hping3 & \n", encoding="ascii"))
 
