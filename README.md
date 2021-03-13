@@ -23,9 +23,9 @@ At least 1 **bot** to start the **Attack**
 
 ## Usage
 
-Execute the **main.py** with **Python 3.7**:
+Execute the **menu.py** with **Python 3.7**:
 
-    main.py
+    menu.py
    
 Then select the **option** that you want ( **Remember**, you need to have **some bots** before starting the attacks ):
 
